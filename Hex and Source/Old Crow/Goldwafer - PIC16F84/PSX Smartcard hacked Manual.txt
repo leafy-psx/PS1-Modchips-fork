@@ -1,0 +1,81 @@
+*****     ****     **      ** 
+**  **   **  **     **    **
+**  **    ***        **  **
+*****       **        ****       keycard hacking   by Sam 12'2003
+**        ******     **  **
+**      *   **      **    **
+**       ****      **      **
+
+-  -- - -  -  ---- -  - - --- -  - - --- -
+-  -- - -  -  ---- -  - - --- -  - ----- -
+-  -- - -  -  ---- -  - - --- -  - -- -- -
+
+
+Welcome to the 'Creating your own flashy keycard PSX' Tutorial!
+***************************************************************
+
+
+all you need:
+-------------
+* slightly older PSX which has one of the jpg shown boards
+  (used at ebay for ca. 30 $ )
+
+* Goldwafer smartcard (PIC 16F84)
+  (findable at some digital satellite shops for 5 $ )
+
+* usual multi chipcard programmer
+  (also there, costs around 50 - 100 $ )
+
+* smartcardcontacting-unit (cardslot)
+  (disassemble some old cellphones, sat-receivers or buy it
+   at electronic shops for ca. 5 $ )
+
+* 5 different colored wires, around 40cm (20 inches)
+  solder iron etc., a little hand-drill, srewdriver
+
+
+
+Letz start:
+---------------------------
+
+Check out what cardslot contact matches which chipcard-pins,
+then notice what goldwafer contact uses which colored wire
+and solder the 5 wires at the correct pins.
+
+! Often the Goldwafer is inserted that way the contacts show to the ground,
+so dont get confused, orientate yourself on the Pin 5,
+which has that "L form", to connect those 5 wires at the cardunit correct.
+
+And dont solder the wires directly onto the Goldwafer. ;-)
+
+
+
+Now disassemble your PSX carefully, manuals and how to do's you can find enough over internet.
+
+Connect all wires as its shown on the correct Board picture for your PSX with the fitting goldwafer pins/cables.
+As example if you see a C5 on the picture its simply Chipcard Pin5 (the 'L'), also the same with the remaining few pins.
+If you wanna have some fun, solder a LED in series with a ca. 300 ohm resistor between Pin7 and Pin5, then you can see it funny blink at bootcode sending.
+
+
+Then bundle the 5 wires and lead them outside of the PSX. After this put the platine back at its formerly place, close the PSX and screw the box.
+
+
+Now put that little Goldy into your programmer, and "burn" one of those provided *.hex files from the GW_ALL.ZIP onto it. I recommend the:
+
+Mod84_v3 Goldwafer SCEx ASCII by Truman.hex 'cause its the newest and first progged, but all 3 are working great. ;-)
+
+
+If you dont have yet any smartcard programming software, simply search for all those free programs you can find on the net like: Chipcat, CardWriter or IC-Prog. If there are some settings you can control, use for OSC: XT and for WDT, PWRTE and CP always OFF!
+
+After you had programmed your smartcard, you can made a verify to check if everythings written correctly. And thats all!
+
+
+Now sit down relaxed and stick those cool little keycard into your hot slut ehm cardslot *eg* and enjoy the booting sequence of your favorite backups.
+
+Everyone around will envy you now, and if you should have kids, they will do all you want just for getting hands on your magic keycard! *ggg*
+
+
+Good luck and have Fun!
+
+
+Sam
